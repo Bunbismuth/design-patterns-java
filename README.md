@@ -1,4 +1,4 @@
-# design-patterns-java 
+# Design Patterns Java 
 
 This repository will be written in two languagens, portuguese and in english, 
 for practicing my english knowledge and to point out some changes between these
@@ -8,6 +8,9 @@ their names.
 Esse repositório será escrito em dois idiomas, português e inglês, para 
 pôr em prática o meu conhecimento em inglês e também apontar algumas
 diferenças entre alguns nomes utilizados para os Padrões de Projeto.
+
+**OBS:** Some resources will be updated first at portuguese and then at english, for 
+study purposes and to make adicional reviews.
 
 ## Design Patterns in Java
 ### Overview
