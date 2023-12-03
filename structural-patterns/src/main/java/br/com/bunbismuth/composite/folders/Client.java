@@ -22,10 +22,10 @@ public class Client {
     return new Folder(file.getName(), childs);
   }
   public static void main(String[] args) {
-    FileSystemItem file1 = new br.com.bunbismuth.composite.folders.model.File("f1");
-    FileSystemItem file2 = new br.com.bunbismuth.composite.folders.model.File("f1");
-    FileSystemItem file3 = new br.com.bunbismuth.composite.folders.model.File("f1");
-    FileSystemItem file4 = new br.com.bunbismuth.composite.folders.model.File("f1");
+    FileSystemItem file1 = new br.com.bunbismuth.composite.folders.model.File("File1.txt");
+    FileSystemItem file2 = new br.com.bunbismuth.composite.folders.model.File("File2.txt");
+    FileSystemItem file3 = new br.com.bunbismuth.composite.folders.model.File("File3.txt");
+    FileSystemItem file4 = new br.com.bunbismuth.composite.folders.model.File("File4.txt");
     FileSystemItem sf1 = new Folder("sf1", List.of(file1));
     FileSystemItem sf2 = new Folder("sf2", Arrays.asList(file2, sf1));
     FileSystemItem folder = new Folder("folder",
