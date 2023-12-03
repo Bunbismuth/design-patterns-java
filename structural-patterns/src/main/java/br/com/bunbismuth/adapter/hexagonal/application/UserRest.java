@@ -1,12 +1,11 @@
 package br.com.bunbismuth.adapter.hexagonal.application;
 
 import br.com.bunbismuth.adapter.hexagonal.core.model.User;
-import java.util.List;
-import java.util.Map;
-
 import br.com.bunbismuth.adapter.hexagonal.core.ports.UserRepository;
 import br.com.bunbismuth.adapter.hexagonal.core.usecases.UserService;
 import br.com.bunbismuth.adapter.hexagonal.infrastructure.UserMemoryDatabaseAdapter;
+import java.util.List;
+import java.util.Map;
 
 public class UserRest {
 	private final UserService userFacade;

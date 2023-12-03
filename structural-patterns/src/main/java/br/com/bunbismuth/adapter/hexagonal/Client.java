@@ -1,9 +1,8 @@
 package br.com.bunbismuth.adapter.hexagonal;
 
+import br.com.bunbismuth.adapter.hexagonal.application.UserRest;
 import java.util.HashMap;
 import java.util.Map;
-
-import br.com.bunbismuth.adapter.hexagonal.application.UserRest;
 
 public class Client {
 

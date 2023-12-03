@@ -1,9 +1,8 @@
 package br.com.bunbismuth.adapter.hexagonal.core.usecases;
 
 import br.com.bunbismuth.adapter.hexagonal.core.model.User;
-import java.util.List;
-
 import br.com.bunbismuth.adapter.hexagonal.core.ports.UserRepository;
+import java.util.List;
 
 public class UserService {
 	private final UserRepository userRepository;

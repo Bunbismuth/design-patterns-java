@@ -1,12 +1,11 @@
 package br.com.bunbismuth.adapter.hexagonal.infrastructure;
 
 import br.com.bunbismuth.adapter.hexagonal.core.model.User;
+import br.com.bunbismuth.adapter.hexagonal.core.ports.UserRepository;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import br.com.bunbismuth.adapter.hexagonal.core.ports.UserRepository;
 
 public class UserMemoryDatabaseAdapter implements UserRepository {
 	
